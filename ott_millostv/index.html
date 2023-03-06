@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ----------LINKS OWL CAROUSEL----------------- -->    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"/>
+
+    <!-- -----------BOOTSTRAP------------------ -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <title>Millos TV</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/estilos.css?v=1.22">
+    <link rel="stylesheet" href="css/responsive.css?v=1.22">
+</head>
+<body>
+
+    <!-- -------------------OFF CANVAS MENU----------------------- -->
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-body">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title img_canva" id="offcanvasExampleLabel"><img src="img/millo-tv.png" alt=""></h5>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+          <div class="head_canvas">
+            <a href="#" class="item_canva"><i class="fa-solid fa-user"></i>Cuenta</a>
+            <a href="single_note.html" class="item_canva"><i class="fa-solid fa-circle-info"></i>Centro de ayuda</a>
+            <a href="login.html" class="item_canva"><i class="fa-solid fa-right-to-bracket"></i>Cerrar sesión</a>
+          </div>
+          <div class="mid_canvas">
+            <a href="#" class="item_mid"><i class="fa-solid fa-chevron-right"></i>Más visto</a>
+            <a href="#" class="item_mid"><i class="fa-solid fa-chevron-right"></i>Inside</a>
+            <a href="#" class="item_mid"><i class="fa-solid fa-chevron-right"></i>Tbt Azul</a>
+            <a href="#" class="item_mid"><i class="fa-solid fa-chevron-right"></i>Mar Azul</a>
+            <a href="#" class="item_mid"><i class="fa-solid fa-chevron-right"></i>Embajadores de un sueño</a>
+            <a href="#" class="item_mid"><i class="fa-solid fa-chevron-right"></i>Entretenimiento</a>
+            <a href="#" class="item_mid"><i class="fa-solid fa-chevron-right"></i>Blog Millonarios</a>
+            <a href="#" class="item_mid"><i class="fa-solid fa-chevron-right"></i>Actualidad</a>
+            <a href="#" class="item_mid"><i class="fa-solid fa-chevron-right"></i>Embajadores del Ballet Azul</a>
+            <a href="#" class="item_mid"><i class="fa-solid fa-chevron-right"></i>Clásicos eternos</a>
+            <a href="#" class="item_mid"><i class="fa-solid fa-chevron-right"></i>El camino</a>
+            <a href="#" class="item_mid"><i class="fa-solid fa-chevron-right"></i>Detrás del Azul</a>
+            <a href="#" class="item_mid"><i class="fa-solid fa-chevron-right"></i>Promociones</a>
+          </div>
+          <div class="logo_and">
+            <img src="img/Andina-web-22-2.png" alt=""> 
+          </div>
+          <div class="row_canvas">
+            <li>
+                <img src="img/adidas.png" alt=""> 
+            </li>
+            <li>
+                <img src="img/cafam.png" alt="">
+            </li>
+            <li>
+                <img src="img/herbalife.png" alt="">
+            </li>
+            <li>
+                <img src="img/wplay.png" alt="">
+            </li>
+            <li>
+                <img src="img/allianz.png" alt="">
+            </li>
+          </div>
+        </div>
+      </div>
+
+  
+  <!-- ------------------------MODAL----------------- -->
+  <div class="modal fade modal_window" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body body_modal">
+            <div class="head_modal">
+                <video autoplay loop muted plays-inline class="video_modal">
+                    <source src="img/video_mfc.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="mid_modal">
+                <h2 class="title_modal">CAMINO AL TÍTULO</h2>
+                <a href="liveVideo.html" class="btn_play_movie"><i class="fa-solid fa-play"></i>Reproducir</a>
+                <div class="specified">
+                    <p class="year_cuality">2008 <span class="cuality_">+16</span> 57 episodios <span class="cuality_">HD</span></p>
+                </div>
+                <div class="text_modal">
+                    <h3 class="title_descrip">Descripción</h3>
+                    <p class="description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi accusantium voluptates at ipsam enim deserunt! Consequatur doloribus cupiditate ad. Quis dignissimos, quo soluta cumque molestias ipsum rerum reiciendis a dolor?</p>
+                    <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit a consequuntur illum labore doloremque culpa id deserunt error corrupti quas aperiam veritatis unde et, eaque nemo molestiae enim quam harum.</p>
+                </div>
+                <div class="text_modal">
+                    <h3 class="title_descrip">Acerca de</h3>
+                    <p class="description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi accusantium voluptates at ipsam enim deserunt! Consequatur doloribus cupiditate ad. Quis dignissimos, quo soluta cumque molestias ipsum rerum reiciendis a dolor?</p>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+    <!-- --------------------HEADER---------- -->
+    <header class="header">
+        <div class="content_header">
+            <div class="left_header">
+                <div class="menu_mobile">
+                    <a class="btn_menu_mob" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample"><i class="fa-solid fa-bars"></i></a>
+                </div>
+                <div class="logo_header">
+                    <a href="index.html">
+                        <img src="img/millo-tv.png" class="img_movie" alt="">
+                    </a>
+                </div>
+                <div class="menu_movies">
+                    <a href="index.html" class="item_menu">Inicio</a>
+                    <a href="movies.html" class="item_menu">Videos</a>
+                    <a href="blog.html" class="item_menu">Blog</a>
+                </div>
+            </div>
+            <div class="right_header">
+                <div class="search_icon">
+                    <div class="btn_search">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                    <input type="text" placeholder="Títulos, personas, géneros" required>
+                </div>
+                <div class="admin_icon">
+                    <div class="dropdown">
+                        <button class="btn btn_admin  dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa-solid fa-user"></i>
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                          <li><a class="dropdown-item" href="#"><i class="fa-solid fa-user"></i>Cuenta</a></li>
+                          <li><a class="dropdown-item" href="#"><i class="fa-solid fa-circle-info"></i>Soporte</a></li>
+                          <li><a class="dropdown-item" href="login.html"><i class="fa-solid fa-right-to-bracket"></i>Cerrar sesión</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- ------------------HERO MOVIES--------------- -->
+    <div class="hero">
+        <video autoplay loop muted plays-inline class="back_video"> 
+            <source src="img/video_mfc.mp4" type="video/mp4">
+        </video>
+        <div class="content_hero">
+            <div class="text_hero">
+                <div class="head_hero">
+                    <h1 class="title_hero">CAMINO AL TÍTULO</h1>
+                    <p class="paragraf_hero">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure atque nam,
+                        enim veniam quibusdam quaerat accusantium fuga voluptas tenetur,
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit</p>
+                </div>
+                <div class="bot_hero">
+                    <a href="liveVideo.html" class="btn_play"><i class="fa-solid fa-play"></i>Reproducir</a>
+                    <a href="single_note.html" class="btn_info" alt="" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fa-solid fa-info"></i>Más información</a>
+                </div>
+            </div>
+        </div>
+    </div>  
+
+    <!-- -------------------FILTER----------------------------------- -->
+    <div class="filter">
+        <div class="content_filter">
+            <div class="contenido_search">
+                <div class="card_item">
+                    <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Buscar...">
+                    <datalist id="datalistOptions">
+                    <option value="Más visto">
+                    <option value="Inside">
+                    <option value="Tbt azul">
+                    <option value="Embajadores de uns sueño">
+                    <option value="Entretenimiento">
+                    <option value="Blog millonarios">
+                    <option value="Actualidad">
+                    <option value="Embajadores del Ballet Azul">
+                    <option value="Clásicos eternos">
+                    <option value="El Camino">
+                    <option value="Detrás del Azul">
+                    <option value="Promociones">
+                    </datalist>
+                </div>
+                <div class="card_item">
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>Todo</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                      </select>
+                </div>
+                <div class="card_item">
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>Categorías</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                      </select>
+                </div>
+                <div class="card_item">
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>Fecha</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                      </select>
+                </div>
+                <div class="card_item">
+                    <div class="sub_bot">
+                        <a href="#" class="btn_filter">Filtrar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ----------------SLIDER MASK--------- -->
+    <main class="slider_mask back_positive">
+        <div class="head_global margin_bot">
+            <div class="top_global">
+                <h2 class="titulo_global negative">LO MÁS RECIENTE EN MILLOS TV</h2>
+            </div>
+            <div class="bot_global">
+                <h4 class="sub_global">En contenido y noticias</h4>
+            </div>
+        </div>
+        <div class="carousel_mov owl-carousel owl-theme">
+            <div class="item">
+                <img src="img/celebra.jpg" class="link_movie" alt="" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            </div>
+            <div class="item">
+                <img src="img/equipo_campo.webp" class="link_movie" alt="" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            </div>
+            <div class="item">
+                <img src="img/gol.jpg" class="link_movie" alt="" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            </div>
+            <div class="item">
+                <img src="img/millos2.jpg" class="link_movie" alt="" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            </div>
+            <div class="item">
+                <img src="img/millos6.jpg" class="link_movie" alt="" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            </div>
+            <div class="item">
+                <img src="img/millos3.jpg" class="link_movie" alt="" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            </div>
+        </div>
+        <div class="bot_millos">
+            <a href="movies.html" class="btn_millos">VER TODO EL CONTENIDO</a>
+        </div> 
+    </main>
+
+    <!-- -------------------SECTION IMG_INFO------------------------- -->
+    <section class="info_imagen over_mobile">
+        <div class="content_info_img">
+            <div class="informacion">
+                <h2 class="titulo_info">¿Quieres saber como funciona MILLOS TV?</h2>
+                <p class="parrafo_info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta repellendus deleniti nostrum soluta illo facere laudantium rem possimus aliquid voluptatibus?</p>
+            </div>
+            <div class="imagen_if">
+                <img src="img/gamero.png" alt="">
+            </div>
+        </div>
+        <div class="contenido_cajas not_mobile_cajas">
+            <div class="container_cajas">
+                <div class="caja_info">
+                    <div class="icono_if">
+                        <i class="fa-solid fa-film"></i>
+                    </div>
+                    <div class="texto_caja">
+                        <h2 class="titulo_caja">Contenidos Exclusivos</h2>
+                        <p class="parrafo_caja">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo non facilis sunt!</p>
+                    </div>
+                </div>
+                <div class="caja_info">
+                    <div class="icono_if">
+                        <i class="fa-brands fa-steam-symbol"></i>
+                    </div>
+                    <div class="texto_caja">
+                        <h2 class="titulo_caja">Live Streaming</h2>
+                        <p class="parrafo_caja">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo non facilis sunt!</p>
+                    </div>
+                </div>
+                <div class="caja_info">
+                    <div class="icono_if">
+                        <i class="fa-solid fa-podcast"></i>
+                    </div>
+                    <div class="texto_caja">
+                        <h2 class="titulo_caja">Podcast</h2>
+                        <p class="parrafo_caja">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo non facilis sunt!</p>
+                    </div>
+                </div>
+                <div class="caja_info">
+                    <div class="icono_if">
+                        <i class="fa-solid fa-gift"></i>
+                    </div>
+                    <div class="texto_caja">
+                        <h2 class="titulo_caja">Experiencias</h2>
+                        <p class="parrafo_caja">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo non facilis sunt!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="contenido_cajas">
+            <div class="scrollmenu">
+                <div class="caja_info">
+                    <div class="icono_if">
+                        <i class="fa-solid fa-film"></i>
+                    </div>
+                    <div class="texto_caja">
+                        <h2 class="titulo_caja">Contenidos Exclusivos</h2>
+                        <p class="parrafo_caja">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo non facilis sunt!</p>
+                    </div>
+                </div>
+                <div class="caja_info">
+                    <div class="icono_if">
+                        <i class="fa-brands fa-steam-symbol"></i>
+                    </div>
+                    <div class="texto_caja">
+                        <h2 class="titulo_caja">Live Streaming</h2>
+                        <p class="parrafo_caja">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo non facilis sunt!</p>
+                    </div>
+                </div>
+                <div class="caja_info">
+                    <div class="icono_if">
+                        <i class="fa-solid fa-podcast"></i>
+                    </div>
+                    <div class="texto_caja">
+                        <h2 class="titulo_caja">Podcast</h2>
+                        <p class="parrafo_caja">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo non facilis sunt!</p>
+                    </div>
+                </div>
+                <div class="caja_info">
+                    <div class="icono_if">
+                        <i class="fa-solid fa-gift"></i>
+                    </div>
+                    <div class="texto_caja">
+                        <h2 class="titulo_caja">Experiencias</h2>
+                        <p class="parrafo_caja">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo non facilis sunt!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- --------------------SECTION CREATORS------------------- -->
+    <section class="creators_home">
+        <div class="head_global mod_planes">
+            <div class="top_global">
+                <h2 class="titulo_global">VIDEOS DESTACADOS DE CREATORS</h2>
+            </div>
+            <div class="bot_global">
+                <h4 class="sub_global">Los videos del momento</h4>
+            </div>
+        </div>
+        <div class="content_creators_home">
+            <div class="left_creators">
+                <a href="#"><img src="img/logo-creators.png" alt=""></a>
+                <p class="descrip_creators">la plataforma donde puedes compartir tus videos y ver contenido</p>
+                <a href="#" class="boton_creat_ir">IR A CREATORS</a>
+            </div>
+            <div class="right_creators">
+                <div class="slid_videos">
+                    <div class="carousel_3 owl-carousel owl-theme">
+                        <div class="card_demost">
+                            <div class="img_video">
+                                <img src="img/equipo_campo.webp" alt="">
+                            </div>
+                            <div class="pos_creators">
+                                <p class="etiqueta_pb">30 Oct, 2020</p>
+                                <div class="mid_link">
+                                    <a href="#" class="btn_abrir" alt="" data-bs-toggle="modal" data-bs-target="#exampleModal"><ion-icon name="play"></ion-icon></a>
+                                </div>
+                                <a href="single_note.html" class="link_video_cr">Lorem ipsum dolor sit, amet consectetur adipisicing.</a>
+                            </div>
+                        </div>
+                        <div class="card_demost">
+                            <div class="img_video">
+                                <img src="img/equipo_campo.webp" alt="">
+                            </div>
+                            <div class="pos_creators">
+                                <p class="etiqueta_pb">30 Oct, 2020</p>
+                                <div class="mid_link">
+                                    <a href="#" class="btn_abrir" alt="" data-bs-toggle="modal" data-bs-target="#exampleModal"><ion-icon name="play"></ion-icon></a>
+                                </div>
+                                <a href="single_note.html" class="link_video_cr">Lorem ipsum dolor sit, amet consectetur adipisicing.</a>
+                            </div>
+                        </div>
+                        <div class="card_demost">
+                            <div class="img_video">
+                                <img src="img/equipo_campo.webp" alt="">
+                            </div>
+                            <div class="pos_creators">
+                                <p class="etiqueta_pb">30 Oct, 2020</p>
+                                <div class="mid_link">
+                                    <a href="#" class="btn_abrir" alt="" data-bs-toggle="modal" data-bs-target="#exampleModal"><ion-icon name="play"></ion-icon></a>
+                                </div>
+                                <a href="single_note.html" class="link_video_cr">Lorem ipsum dolor sit, amet consectetur adipisicing.</a>
+                            </div>
+                        </div>
+                        <div class="card_demost">
+                            <div class="img_video">
+                                <img src="img/equipo_campo.webp" alt="">
+                            </div>
+                            <div class="pos_creators">
+                                <p class="etiqueta_pb">30 Oct, 2020</p>
+                                <div class="mid_link">
+                                    <a href="#" class="btn_abrir" alt="" data-bs-toggle="modal" data-bs-target="#exampleModal"><ion-icon name="play"></ion-icon></a>
+                                </div>
+                                <a href="liveVideo.html" class="link_video_cr">Lorem ipsum dolor sit, amet consectetur adipisicing.</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>   
+    </section>
+
+    <!-- SECTION NOTAS -->
+    <section class="nov">
+        <div class="head_global mod_planes">
+            <div class="top_global">
+                <h2 class="titulo_global">NOVEDADES</h2>
+            </div>
+            <div class="bot_global">
+                <h4 class="sub_global">Elige el plan que mas te guste</h4>
+            </div>
+        </div>
+        <div class="content_nov">
+            <div class="contenedor_nov">
+                <div class="nota_nov">
+                    <div class="wrapper2">
+                        <div class="carousel_2 owl-carousel owl-theme">
+                            <div class="card2">
+                                <img src="img/direct.jpg" alt="" class="img_slider">
+                                <div class="info_preg">
+                                    <div class="etiqueta_global">
+                                        <h3 class="etiqueta_mod con_padd">NOVEDAD</h3>
+                                    </div>
+                                    <a href="single_note.html" class="pregunta_sm">¿Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, assumenda?</a>
+                                </div>
+                            </div>
+                            <div class="card2">
+                                <img src="img/camisetas.jpg" alt="" class="img_slider">
+                                <div class="info_preg">
+                                    <div class="etiqueta_global">
+                                        <h3 class="etiqueta_mod con_padd">NOVEDAD</h3>
+                                    </div>
+                                    <a href="single_note.html" class="pregunta_sm">¿Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, assumenda?</a>
+                                </div>
+                            </div>
+                            <div class="card2">
+                                <img src="img/gol.jpg" alt="" class="img_slider">
+                                <div class="info_preg">
+                                    <div class="etiqueta_global">
+                                        <h3 class="etiqueta_mod con_padd">NOVEDAD</h3>
+                                    </div>
+                                    <a href="single_note.html" class="pregunta_sm">¿Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, assumenda?</a>
+                                </div>
+                            </div>
+                            <div class="card2">
+                                <img src="img/celebra.jpg" alt="" class="img_slider">
+                                <div class="info_preg">
+                                    <div class="etiqueta_global">
+                                        <h3 class="etiqueta_mod con_padd">NOVEDAD</h3>
+                                    </div>
+                                    <a href="single_note.html" class="pregunta_sm">¿Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, assumenda?</a>
+                                </div>
+                            </div>
+                            <div class="card2">
+                                <img src="img/camisetas.jpg" alt="" class="img_slider">
+                                <div class="info_preg">
+                                    <div class="etiqueta_global">
+                                        <h3 class="etiqueta_mod con_padd">NOVEDAD</h3>
+                                    </div>
+                                    <a href="single_note.html" class="pregunta_sm">¿Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, assumenda?</a>
+                                </div>
+                            </div>
+                            <div class="card2">
+                                <img src="img/equipo_campo.webp" alt="" class="img_slider">
+                                <div class="info_preg">
+                                    <div class="etiqueta_global">
+                                        <h3 class="etiqueta_mod con_padd">NOVEDAD</h3>
+                                    </div>
+                                    <a href="single_note.html" class="pregunta_sm">¿Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, assumenda?</a>
+                                </div>
+                            </div>
+                            <div class="card2">
+                                <img src="img/direct.jpg" alt="" class="img_slider">
+                                <div class="info_preg">
+                                    <div class="etiqueta_global">
+                                        <h3 class="etiqueta_mod con_padd">NOVEDAD</h3>
+                                    </div>
+                                    <a href="single_note.html" class="pregunta_sm">¿Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, assumenda?</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sidebar_nov">
+                    <div class="caja_nov">
+                        <div class="img_nov">
+                            <img src="img/equipo_campo.webp" alt="">
+                        </div>
+                        <div class="info_nov">
+                            <div class="etiqueta_global">
+                                <h3 class="etiqueta_submod">NOVEDAD</h3>
+                            </div>
+                            <a href="single_note.html" class="pregunta_dos">¿Lorem ipsum dolor sit amet, consectetur adipisicing elit?</a>
+                        </div>
+                    </div>
+                    <div class="caja_nov">
+                        <div class="img_nov">
+                            <img src="img/celebra.jpg" alt="">
+                        </div>
+                        <div class="info_nov">
+                            <div class="etiqueta_global">
+                                <h3 class="etiqueta_submod">NOVEDAD</h3>
+                            </div>
+                            <a href="single_note.html" class="pregunta_dos">¿Lorem ipsum dolor sit amet, consectetur adipisicing elit?</a>
+                        </div>
+                    </div>
+                    <div class="caja_nov">
+                        <div class="img_nov">
+                            <img src="img/camisetas.jpg" alt="">
+                        </div>
+                        <div class="info_nov">
+                            <div class="etiqueta_global">
+                                <h3 class="etiqueta_submod">NOVEDAD</h3>
+                            </div>
+                            <a href="single_note.html" class="pregunta_dos">¿Lorem ipsum dolor sit amet, consectetur adipisicing elit?</a>
+                        </div>
+                    </div>
+                    <div class="caja_nov">
+                        <div class="img_nov">
+                            <img src="img/gol.jpg" alt="">
+                        </div>
+                        <div class="info_nov">
+                            <div class="etiqueta_global">
+                                <h3 class="etiqueta_submod">NOVEDAD</h3>
+                            </div>
+                            <a href="single_note.html" class="pregunta_dos">¿Lorem ipsum dolor sit amet, consectetur adipisicing elit?</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+<!-- ---------------------SECTION PLANES------------------------ -->
+    <section class="planes">
+        <div class="head_global mod_planes">
+            <div class="top_global">
+                <h2 class="titulo_global">CONOCE NUESTROS PLANES</h2>
+            </div>
+            <div class="bot_global">
+                <h4 class="sub_global">Elige el plan que mas te guste</h4>
+            </div>
+        </div>
+        <div class="content_planes">
+            <div class="contenido_plan">
+                <div class="plan">
+                    <div class="body_plan">
+                        <h2 class="titulo_plan">Gratis</h2>
+                        <h3 class="precio_plan">$00.000</h3>
+                        <p class="item_plan">Acceso a todos contenidos gratuitos</p>
+                    </div>
+                    <div class="pie_plan">
+                        <a href="pay.html" class="btn_plan">ADQUIRIR PLAN</a>
+                    </div>
+                </div>
+                <div class="plan">
+                    <div class="body_plan">
+                        <h2 class="titulo_plan">Estandar</h2>
+                        <h3 class="precio_plan">$7.900</h3>
+                        <p class="item_plan">Acceso a todos contenidos gratuitos, contenidos exclusivos, sorteos mensuales, merchandising y Participación en eventos exclusivos de MFC TV</p> 
+                    </div>
+                    <div class="pie_plan">
+                        <a href="pay.html" class="btn_plan">ADQUIRIR PLAN</a>
+                    </div>
+                </div>
+                <div class="plan">
+                    <div class="body_plan">
+                        <h2 class="titulo_plan">Premium</h2>
+                        <h3 class="precio_plan">$79.900</h3>
+                        <p class="item_plan">Acceso a todos contenidos gratuitos, contenidos exclusivos, sorteos mensuales, merchandising y Participación en eventos exclusivos de MFC TV</p>
+                    </div>
+                    <div class="pie_plan">
+                        <a href="pay.html" class="btn_plan">ADQUIRIR PLAN</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION PREGUNTAS  -->
+    <section id="PreguntasFrecuentes" class="boots">
+        <div class="content_boots">
+            <div class="head_global">
+                <div class="top_global">
+                    <h2 class="titulo_global">PREGUNTAS FRECUENTES</h2>
+                </div>
+            </div>
+            <div class="grid_pregunta">
+                <div class="accordion" id="accordionPanelsStayOpenExample">
+                    <div class="accordion-item">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="false" aria-controls="panelsStayOpen-collapseOne">
+                            ¿Necesito tener un equipo de desarrollo para usar la plataforma?
+                        </button>
+                    </h2>  
+                    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingOne">
+                        <div class="accordion-body">
+                            No, en absoluto. Nuestra plataforma está totalmente diseñada para su fácil uso y administración. No tendrás necesidad de tocar una línea de código para ponerla en marcha. Además cuentas con un soporte calificado en caso de que requieras ayuda.
+                        </div>
+                    </div>
+                    </div>
+                    <div class="accordion-item">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                            ¿Hay costos mensuales ocultos?
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                        <div class="accordion-body">
+                            No. Solo pagas una vez por la licencia y el setup del juego en tu dominio o subdominio. Ya terminado el mundial, la URL permanecerá activa por 3 meses más como histórico.
+                            <br>
+                            <br>
+                            También ten en cuenta que vendemos todo tipo de competencias. Por lo cual podrás mantener tu plataforma agregando nuevos campeonatos.
+                        </div>
+                    </div>
+                    </div>
+                    <div class="accordion-item">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                            ¿Si no tengo dominio puedo usar la plataforma?
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                        <div class="accordion-body">
+                            Si. Si no cuentas o no quieres usar tu propio dominio, podemos ofrecerte un espacio en nuestro dominio fansgol.net. Quedaría por ejemplo así: tumarca.fansgol.net
+                        </div>
+                    </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
+                            ¿Puedo tener mi juego en una App?
+                        </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFour">
+                        <div class="accordion-body">
+                            Si. Nuestro equipo podría entregarte un APK para que tus usuarios o colabores descarguen la aplicación del juego, o bien la puedas publicar en las tiendas de Google Play y App Store. (Este servicio tiene un costo adicional)
+                        </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingFive">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="false" aria-controls="panelsStayOpen-collapseFive">
+                            ¿Puedo moderar usuarios?
+                        </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFive">
+                        <div class="accordion-body">
+                            Si. Como propietario del juego podrás acceder a la administración de la misma y editar secciones como premios y también moderar los usuarios que están participando en el juego. (En ningún momento podrás alterar los puntajes, solo podrás prohibir que uno o varios usuarios específicos dejen de participar.
+                        </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingSix">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseSix" aria-expanded="false" aria-controls="panelsStayOpen-collapseSix">
+                            ¿Quién computa los marcadores de los partidos?
+                        </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseSix" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingSix">
+                        <div class="accordion-body">
+                            Los resultados se actualizan de manera automática una vez finalice cada partido del encuentro. Y de manera automática se computarán los puntos acertados y el ranking de usuarios.
+                        </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingSeven">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseSeven" aria-expanded="false" aria-controls="panelsStayOpen-collapseSeven">
+                            ¿Quién desarrolla y es responsable del juego?
+                        </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseSeven" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingSeven">
+                        <div class="accordion-body">
+                            Esta plataforma B2B es desarrollada por Laooz Studios, agencia digital de Medellín que ha realizado plataformas y desarrollos para sitios web deportivos como: Futbol22.com, Futbolete.com, además para entidades como El Colombiano, Alcaldía de Medellín, Tiendas D1, El Espectador, CNN Chile, etc…
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </div>
+    </section>
+
+
+    <!-- -----------------FOOTER------------------ -->
+    <footer class="footer"> 
+        <div class="content_footer">
+            <div class="top_footer">
+                <div class="img_tf">
+                    <img src="img/Andina-web-22-2.png" alt="">
+                </div>
+            </div>
+            <div class="logos_footer">
+                <div class="pat_footer">
+                    <a href="https://www.adidas.co/">
+                        <img src="img/adidas.png" alt="">
+                    </a>
+                    <a href="https://www.cafam.com.co/">
+                        <img src="img/cafam.png" alt="">
+                    </a>
+                    <a href="https://www.herbalife.com.co/">
+                        <img src="img/herbalife.png" alt="">
+                    </a>
+                    <a href="https://www.wplay.co/">
+                        <img src="img/wplay.png" alt="">
+                    </a>
+                    <a href="https://www.allianz.co/">
+                        <img src="img/allianz.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="copy">
+            <div class="content_copy">
+                <div class="left_copy">
+                    <img src="img/logo_millos.png" alt="" class="logo_millos">
+                    <span class="barra_spa"></span>
+                    <img src="img/ntrFOE3.png" alt="" class="omega">
+                </div>
+                <div class="center_copy">
+                    <p class="paragraph_copy">Copyright © Millonarios FC 2022. Todos los derechos reservados</p>
+                </div>
+                <div class="right_copy">
+                    <div class="redes_copy">
+                        <a href="#" class="social_icon"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" class="social_icon"><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+
+
+  <!-- JavaScript Bundle with Popper Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  
+  <!-- ICONS IONICOS -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+ <!-- -----------------cdn slider carousel--------------- -->
+ <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> 
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>    
+
+  <script src="js/codigo.js"></script>
+
+</body>
+</html>

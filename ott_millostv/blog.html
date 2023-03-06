@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- -----------BOOTSTRAP------------------ -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <title>Blog MillosTv</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/estilos.css?v=1.4">
+    <link rel="stylesheet" href="css/responsive.css?v=1.4">
+</head>
+<body>
+
+    <!-- -------------------OFF CANVAS MENU----------------------- -->
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-body">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title img_canva" id="offcanvasExampleLabel"><img src="img/millo-tv.png" alt=""></h5>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+          <div class="head_canvas">
+            <a href="#" class="item_canva"><i class="fa-solid fa-user"></i>Cuenta</a>
+            <a href="single_note.html" class="item_canva"><i class="fa-solid fa-circle-info"></i>Centro de ayuda</a>
+            <a href="login.html" class="item_canva"><i class="fa-solid fa-right-to-bracket"></i>Cerrar sesión</a>
+          </div>
+          <div class="mid_canvas">
+            <a href="#" class="item_mid"><i class="fa-solid fa-chevron-right"></i>Más visto</a>
+            <a href="#" class="item_mid"><i class="fa-solid fa-chevron-right"></i>Inside</a>
+            <a href="#" class="item_mid"><i class="fa-solid fa-chevron-right"></i>Tbt Azul</a>
+            <a href="#" class="item_mid"><i class="fa-solid fa-chevron-right"></i>Mar Azul</a>
+            <a href="#" class="item_mid"><i class="fa-solid fa-chevron-right"></i>Embajadores de un sueño</a>
+            <a href="#" class="item_mid"><i class="fa-solid fa-chevron-right"></i>Entretenimiento</a>
+            <a href="#" class="item_mid"><i class="fa-solid fa-chevron-right"></i>Blog Millonarios</a>
+            <a href="#" class="item_mid"><i class="fa-solid fa-chevron-right"></i>Actualidad</a>
+            <a href="#" class="item_mid"><i class="fa-solid fa-chevron-right"></i>Embajadores del Ballet Azul</a>
+            <a href="#" class="item_mid"><i class="fa-solid fa-chevron-right"></i>Clásicos eternos</a>
+            <a href="#" class="item_mid"><i class="fa-solid fa-chevron-right"></i>El camino</a>
+            <a href="#" class="item_mid"><i class="fa-solid fa-chevron-right"></i>Detrás del Azul</a>
+            <a href="#" class="item_mid"><i class="fa-solid fa-chevron-right"></i>Promociones</a>
+          </div>
+          <div class="logo_and">
+            <img src="img/Andina-web-22-2.png" alt="">
+          </div>
+          <div class="row_canvas">
+            <li>
+                <img src="img/adidas.png" alt="">
+            </li>
+            <li>
+                <img src="img/cafam.png" alt="">
+            </li>
+            <li>
+                <img src="img/herbalife.png" alt="">
+            </li>
+            <li>
+                <img src="img/wplay.png" alt="">
+            </li>
+            <li>
+                <img src="img/allianz.png" alt="">
+            </li>
+          </div>
+        </div>
+      </div>
+
+    <!-- --------------------HEADER---------- -->
+    <header class="header not_sticky">
+        <div class="content_header">
+            <div class="left_header">
+                <div class="menu_mobile">
+                    <a class="btn_menu_mob" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample"><i class="fa-solid fa-bars"></i></a>
+                </div>
+                <div class="logo_header">
+                    <a href="index.html">
+                        <img src="img/millo-tv.png" alt="">
+                    </a> 
+                </div>
+                <div class="menu_movies">
+                    <a href="index.html" class="item_menu">Inicio</a>
+                    <a href="movies.html" class="item_menu">Videos</a>
+                    <a href="blog.html" class="item_menu">Blog</a>
+                </div>
+            </div>
+            <div class="right_header">
+                <div class="lang">
+                    <div class="dropdown">
+                        <button class="btn btn_lang_header dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa-solid fa-globe"></i>Español
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                          <li><a class="dropdown-item" href="#">Español</a></li>
+                          <li><a class="dropdown-item" href="#">English</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="log_header">
+                    <a href="login.html" class="btn_log">Iniciar sesión</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- ------------------COVER--------------- -->
+    <div class="back_cover">
+        <div class="cover">
+            <div class="content_cover">
+                <div class="text_cover">
+                    <h1 class="title_cover">Entretenimiento, contenidos y mucho más</h1>
+                    <h2 class="subtitle_cover">Disfruta donde quieras y cuando quieras</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <main class="filter">
+        <div class="content_filter">
+            <div class="contenido_search">
+                <div class="card_item">
+                    <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Buscar...">
+                    <datalist id="datalistOptions">
+                    <option value="Más visto">
+                    <option value="Inside">
+                    <option value="Tbt azul">
+                    <option value="Embajadores de uns sueño">
+                    <option value="Entretenimiento">
+                    <option value="Blog millonarios">
+                    <option value="Actualidad">
+                    <option value="Embajadores del Ballet Azul">
+                    <option value="Clásicos eternos">
+                    <option value="El Camino">
+                    <option value="Detrás del Azul">
+                    <option value="Promociones">
+                    </datalist>
+                </div>
+                <div class="card_item">
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>Todo</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                      </select>
+                </div>
+                <div class="card_item">
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>Categorías</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                      </select>
+                </div>
+                <div class="card_item">
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>Fecha</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                      </select>
+                </div>
+                <div class="card_item">
+                    <div class="sub_bot">
+                        <a href="#" class="btn_filter">Filtrar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <!-- ------------------------CONTAINER ROW-------------------------- -->
+    <main class="container_row">
+        <div class="content_row">
+            <div class="row_items">
+                <div class="card_bio">
+                    <a href="single_note.html">
+                        <div class="img_bio">
+                            <img src="img/millos4.jpg" alt="">
+                            <div class="absolute_bio">
+                                <h3 class="title_card_bio">La Albiazul lanza su plataforma.</h3>
+                            </div>
+                        </div>
+                        <div class="date_published">
+                            <p class="time">2 de diciembre de 2022</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="card_bio">
+                    <a href="single_note.html">
+                        <div class="img_bio">
+                            <img src="img/millos4.jpg" alt="">
+                            <div class="absolute_bio">
+                                <h3 class="title_card_bio">La Albiazul lanza su plataforma.</h3>
+                            </div>
+                        </div>
+                        <div class="date_published">
+                            <p class="time">2 de diciembre de 2022</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="card_bio">
+                    <a href="single_note.html">
+                        <div class="img_bio">
+                            <img src="img/millos4.jpg" alt="">
+                            <div class="absolute_bio">
+                                <h3 class="title_card_bio">La Albiazul lanza su plataforma.</h3>
+                            </div>
+                        </div>
+                        <div class="date_published">
+                            <p class="time">2 de diciembre de 2022</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="card_bio">
+                    <a href="single_note.html">
+                        <div class="img_bio">
+                            <img src="img/millos4.jpg" alt="">
+                            <div class="absolute_bio">
+                                <h3 class="title_card_bio">La Albiazul lanza su plataforma.</h3>
+                            </div>
+                        </div>
+                        <div class="date_published">
+                            <p class="time">2 de diciembre de 2022</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="card_bio">
+                    <a href="single_note.html">
+                        <div class="img_bio">
+                            <img src="img/millos4.jpg" alt="">
+                            <div class="absolute_bio">
+                                <h3 class="title_card_bio">La Albiazul lanza su plataforma.</h3>
+                            </div>
+                        </div>
+                        <div class="date_published">
+                            <p class="time">2 de diciembre de 2022</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="card_bio">
+                    <a href="single_note.html">
+                        <div class="img_bio">
+                            <img src="img/millos4.jpg" alt="">
+                            <div class="absolute_bio">
+                                <h3 class="title_card_bio">La Albiazul lanza su plataforma.</h3>
+                            </div>
+                        </div>
+                        <div class="date_published">
+                            <p class="time">2 de diciembre de 2022</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="card_bio">
+                    <a href="single_note.html">
+                        <div class="img_bio">
+                            <img src="img/millos4.jpg" alt="">
+                            <div class="absolute_bio">
+                                <h3 class="title_card_bio">La Albiazul lanza su plataforma.</h3>
+                            </div>
+                        </div>
+                        <div class="date_published">
+                            <p class="time">2 de diciembre de 2022</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="card_bio">
+                    <a href="single_note.html">
+                        <div class="img_bio">
+                            <img src="img/millos4.jpg" alt="">
+                            <div class="absolute_bio">
+                                <h3 class="title_card_bio">La Albiazul lanza su plataforma.</h3>
+                            </div>
+                        </div>
+                        <div class="date_published">
+                            <p class="time">2 de diciembre de 2022</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="card_bio">
+                    <a href="single_note.html">
+                        <div class="img_bio">
+                            <img src="img/millos4.jpg" alt="">
+                            <div class="absolute_bio">
+                                <h3 class="title_card_bio">La Albiazul lanza su plataforma.</h3>
+                            </div>
+                        </div>
+                        <div class="date_published">
+                            <p class="time">2 de diciembre de 2022</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="card_bio">
+                    <a href="single_note.html">
+                        <div class="img_bio">
+                            <img src="img/millos4.jpg" alt="">
+                            <div class="absolute_bio">
+                                <h3 class="title_card_bio">La Albiazul lanza su plataforma.</h3>
+                            </div>
+                        </div>
+                        <div class="date_published">
+                            <p class="time">2 de diciembre de 2022</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="card_bio">
+                    <a href="single_note.html">
+                        <div class="img_bio">
+                            <img src="img/millos4.jpg" alt="">
+                            <div class="absolute_bio">
+                                <h3 class="title_card_bio">La Albiazul lanza su plataforma.</h3>
+                            </div>
+                        </div>
+                        <div class="date_published">
+                            <p class="time">2 de diciembre de 2022</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="card_bio">
+                    <a href="single_note.html">
+                        <div class="img_bio">
+                            <img src="img/millos4.jpg" alt="">
+                            <div class="absolute_bio">
+                                <h3 class="title_card_bio">La Albiazul lanza su plataforma.</h3>
+                            </div>
+                        </div>
+                        <div class="date_published">
+                            <p class="time">2 de diciembre de 2022</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="card_bio">
+                    <a href="single_note.html">
+                        <div class="img_bio">
+                            <img src="img/millos4.jpg" alt="">
+                            <div class="absolute_bio">
+                                <h3 class="title_card_bio">La Albiazul lanza su plataforma.</h3>
+                            </div>
+                        </div>
+                        <div class="date_published">
+                            <p class="time">2 de diciembre de 2022</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="card_bio">
+                    <a href="single_note.html">
+                        <div class="img_bio">
+                            <img src="img/millos4.jpg" alt="">
+                            <div class="absolute_bio">
+                                <h3 class="title_card_bio">La Albiazul lanza su plataforma.</h3>
+                            </div>
+                        </div>
+                        <div class="date_published">
+                            <p class="time">2 de diciembre de 2022</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="card_bio">
+                    <a href="single_note.html">
+                        <div class="img_bio">
+                            <img src="img/millos4.jpg" alt="">
+                            <div class="absolute_bio">
+                                <h3 class="title_card_bio">La Albiazul lanza su plataforma.</h3>
+                            </div>
+                        </div>
+                        <div class="date_published">
+                            <p class="time">2 de diciembre de 2022</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- ----------------------CONTAINER NOTES---------------------------- -->
+    <main class="container_notes">
+        <div class="content_notes">
+            <div class="head_notes">
+                <h1 class="title_head_notes">Últimas noticias</h1>
+            </div>
+            <div class="notes_row">
+                <div class="note">
+                    <div class="img_note">
+                        <img src="img/camp.jpg" alt="">
+                    </div>
+                    <div class="info_note">
+                        <div class="content_info_note">
+                            <p class="flag">Tbt Azul</p>
+                            <h2 class="title_note">Lorem ipsum dolor, sit amet consectetur adipisicing elit. In excepturi inventore?</h2>
+                            <a href="single_note.html" class="btn_note">Seguir leyendo</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="note">
+                    <div class="img_note">
+                        <img src="img/camp.jpg" alt="">
+                    </div>
+                    <div class="info_note">
+                        <div class="content_info_note">
+                            <p class="flag">Tbt Azul</p>
+                            <h2 class="title_note">Lorem ipsum dolor, sit amet consectetur adipisicing elit. In excepturi inventore?</h2>
+                            <a href="single_note.html" class="btn_note">Seguir leyendo</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="note">
+                    <div class="img_note">
+                        <img src="img/camp.jpg" alt="">
+                    </div>
+                    <div class="info_note">
+                        <div class="content_info_note">
+                            <p class="flag">Tbt Azul</p>
+                            <h2 class="title_note">Lorem ipsum dolor, sit amet consectetur adipisicing elit. In excepturi inventore?</h2>
+                            <a href="single_note.html" class="btn_note">Seguir leyendo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <!-- ---------------------BACK_INFO-------------------------------- -->
+    <div class="back_info">
+        <div class="info_">
+            <div class="content_info_">
+                <div class="text_info">
+                    <h3 class="title_info_">¿Buscas materiales de la OTT?</h3>
+                    <p class="paragraph_info_">En el sitio web de MillosTV, encontrarás más imágenes e información sobre la OTT.</p>
+                    <a href="single_note.html" class="btn_info_">Ir a información</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+
+    <!-- -----------------FOOTER------------------ -->
+    <footer class="footer"> 
+        <div class="content_footer">
+            <div class="top_footer">
+                <div class="img_tf">
+                    <img src="img/Andina-web-22-2.png" alt="">
+                </div>
+            </div>
+            <div class="logos_footer">
+                <div class="pat_footer">
+                    <a href="https://www.adidas.co/">
+                        <img src="img/adidas.png" alt="">
+                    </a>
+                    <a href="https://www.cafam.com.co/">
+                        <img src="img/cafam.png" alt="">
+                    </a>
+                    <a href="https://www.herbalife.com.co/">
+                        <img src="img/herbalife.png" alt="">
+                    </a>
+                    <a href="https://www.wplay.co/">
+                        <img src="img/wplay.png" alt="">
+                    </a>
+                    <a href="https://www.allianz.co/">
+                        <img src="img/allianz.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="copy">
+            <div class="content_copy">
+                <div class="left_copy">
+                    <img src="img/logo_millos.png" alt="" class="logo_millos">
+                    <span class="barra_spa"></span>
+                    <img src="img/ntrFOE3.png" alt="" class="omega">
+                </div>
+                <div class="center_copy">
+                    <p class="paragraph_copy">Copyright © Millonarios FC 2022. Todos los derechos reservados</p>
+                </div>
+                <div class="right_copy">
+                    <div class="redes_copy">
+                        <a href="#" class="social_icon"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" class="social_icon"><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+
+
+  <!-- JavaScript Bundle with Popper Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  
+  <!-- ICONS IONICOS -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  <script src="js/codigo.js"></script>
+
+</body>
+</html>

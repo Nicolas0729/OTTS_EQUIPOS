@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- -----------BOOTSTRAP------------------ -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <title>Single Note - Millos TV</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/estilos.css?v=1.6">
+    <link rel="stylesheet" href="css/responsive.css?v=1.5">
+</head>
+<body>
+
+    <!-- -------------------OFF CANVAS MENU----------------------- -->
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-body">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title img_canva" id="offcanvasExampleLabel"><img src="img/logo.png" alt=""></h5>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+          <div class="head_canvas">
+            <a href="#" class="item_canva"><i class="fa-solid fa-user"></i>Cuenta</a>
+            <a href="single_note.html" class="item_canva"><i class="fa-solid fa-circle-info"></i>Centro de ayuda</a>
+            <a href="login.html" class="item_canva"><i class="fa-solid fa-right-to-bracket"></i>Cerrar sesión</a>
+          </div>
+          <div class="mid_canvas">
+            <a href="#" class="item_mid"><i class="fa-solid fa-chevron-right"></i>Más visto</a>
+            <a href="#" class="item_mid"><i class="fa-solid fa-chevron-right"></i>Videos gratuitos</a>
+            <a href="#" class="item_mid"><i class="fa-solid fa-chevron-right"></i>Recomendados</a>
+            <a href="#" class="item_mid"><i class="fa-solid fa-chevron-right"></i>Los escarlatas</a>
+            <a href="#" class="item_mid"><i class="fa-solid fa-chevron-right"></i>Las guerreras</a>
+            <a href="#" class="item_mid"><i class="fa-solid fa-chevron-right"></i>La Actualidad</a>
+            <a href="#" class="item_mid"><i class="fa-solid fa-chevron-right"></i>Pasión de un pueblo</a>
+            <a href="#" class="item_mid"><i class="fa-solid fa-chevron-right"></i>Locker Room</a>
+            <a href="#" class="item_mid"><i class="fa-solid fa-chevron-right"></i>La fábrica</a>
+            <a href="#" class="item_mid"><i class="fa-solid fa-chevron-right"></i>Clásicos 360</a>
+            <a href="#" class="item_mid"><i class="fa-solid fa-chevron-right"></i>Ídolos</a>
+          </div>
+          <div class="logo_and">
+            <img src="img/Pepsi_logo.png" alt=""> 
+          </div>
+          <div class="row_canvas">
+            <img src="img/BetPlay-logo.png" alt="">
+            <img src="img/supergiros_logo.png" alt="">
+            <img src="img/aguila_logo.png" alt="">
+            <img src="img/Logo_Tigo.png" alt="">
+            <img src="img/lamontaña_logo.png" alt="">
+          </div>
+        </div>
+      </div>
+
+  
+  <!-- ------------------------MODAL----------------- -->
+  <div class="modal fade modal_window" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body body_modal">
+            <div class="head_modal">
+                <video autoplay loop muted plays-inline class="video_modal">
+                    <source src="img/futbol.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="mid_modal">
+                <h2 class="title_modal">ÍDOLOS</h2>
+                <a href="liveVideo.html" class="btn_play_movie"><i class="fa-solid fa-play"></i>Reproducir</a>
+                <div class="specified">
+                    <p class="year_cuality">2008 <span class="cuality_">+16</span> 57 episodios <span class="cuality_">HD</span></p>
+                </div>
+                <div class="text_modal">
+                    <h3 class="title_descrip">Descripción</h3>
+                    <p class="description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi accusantium voluptates at ipsam enim deserunt! Consequatur doloribus cupiditate ad. Quis dignissimos, quo soluta cumque molestias ipsum rerum reiciendis a dolor?</p>
+                    <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit a consequuntur illum labore doloremque culpa id deserunt error corrupti quas aperiam veritatis unde et, eaque nemo molestiae enim quam harum.</p>
+                </div>
+                <div class="text_modal">
+                    <h3 class="title_descrip">Acerca de</h3>
+                    <p class="description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi accusantium voluptates at ipsam enim deserunt! Consequatur doloribus cupiditate ad. Quis dignissimos, quo soluta cumque molestias ipsum rerum reiciendis a dolor?</p>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+    <!-- --------------------HEADER---------- -->
+    <header class="header">
+        <div class="content_header">
+            <div class="left_header">
+                <div class="menu_mobile">
+                    <a class="btn_menu_mob" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample"><i class="fa-solid fa-bars"></i></a>
+                </div>
+                <div class="logo_header">
+                    <a href="index.html">
+                        <img src="img/logo.png" class="img_movie" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="right_header">
+                <div class="search_icon">
+                    <div class="btn_search">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                    <input type="text" placeholder="Títulos, personas, géneros" required>
+                </div>
+                <div class="admin_icon">
+                    <div class="dropdown">
+                        <button class="btn btn_admin  dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa-solid fa-user"></i>
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                          <li><a class="dropdown-item" href="#"><i class="fa-solid fa-user"></i>Cuenta</a></li>
+                          <li><a class="dropdown-item" href="#"><i class="fa-solid fa-circle-info"></i>Soporte</a></li>
+                          <li><a class="dropdown-item" href="login.html"><i class="fa-solid fa-right-to-bracket"></i>Cerrar sesión</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <!-- ------------------------SINGLE NOTE---------------------------- -->
+    <div class="back_note_sg">
+        <div class="sg_note">
+            <div class="content_note_sg">
+                <div class="container_sg">
+                    <div class="note_sg">
+                        <div class="head_note_sg">
+                            <h1 class="title_sg">Un entrenamiento con Marlon Torres</h1>
+                            <h3 class="subtitle_sg">La temporada 2 se estrenará en Colombia el 2 de diciembre de 2022</h3>
+                        </div>
+                        <div class="img_note_sg">
+                            <img src="img/Marlon-Torres.jpg " alt="">
+                        </div>
+                        <div class="text_sg">
+                            <div class="card_text">
+                                <h4 class="flag_sg">Sinopsis</h4>
+                                <p class="paragraph_sg">¿Qué podría haber acabado con la estrecha amistad de Tully y Kate, 
+                                    «las de Firefly siempre juntas», íntimas desde hace treinta años? Esta temporada contestará 
+                                    a la pregunta. Pero antes, Kate lidia con las dolorosas secuelas del malogrado viaje de Johnny 
+                                    a Irak y Tully se enfrenta a una demanda tras abandonar su programa de entrevistas y 
+                                    debe empezar su carrera desde cero. Quiere saber quién es y de dónde viene, y sus 
+                                    pesquisas incluyen la búsqueda de su padre, al que nunca conoció, en contra de los deseos 
+                                    de Nube, su reservada madre hippie. En los ochenta, se ve que Kate y Johnny se enamoran 
+                                    y montan más de un numerito en la sala de prensa donde trabajan. Mientras tanto, Tully 
+                                    progresa en el trabajo y se pelea (¡y coquetea!) con el arrogante locutor deportivo Danny Diaz. 
+                                    Puede que haya encontrado a su media naranja... Bueno, eso si pueden pasarse cinco minutos 
+                                    sin discutir. Entretanto, en los setenta, las Kate y Tully adolescentes luchan por conservar 
+                                    su amistad mientras Nube acaba en la cárcel por tráfico de drogas y Tully se va a vivir con su abuela, 
+                                    muy lejos de Firefly. Mientras manejan los conflictos del instituto, tienen una cosa muy clara: 
+                                    se necesitan más que a nadie en el mundo.
+                                </p>
+                            </div>
+                            <div class="card_text">
+                                <p class="paragraph_sg">¿Qué podría haber acabado con la estrecha amistad de Tully y Kate, 
+                                    «las de Firefly siempre juntas», íntimas desde hace treinta años? Esta temporada contestará 
+                                    a la pregunta. Pero antes, Kate lidia con las dolorosas secuelas del malogrado viaje de Johnny 
+                                    a Irak y Tully se enfrenta a una demanda tras abandonar su programa de entrevistas y 
+                                    debe empezar su carrera desde cero.
+                                </p>
+                            </div>
+                            <div class="card_text">
+                                <p class="descrip_sg">Parte 1: Episodios 201-209 (estreno: 2 de diciembre de 2022)</p>
+                                <p class="descrip_sg">Parte 2: Episodios 210-216 (estreno en 2023)</p>
+                            </div>
+                            <div class="card_text">
+                                <p class="descrip_sg">Screeners de la parte 1 disponibles previa petición.</p>
+                            </div>
+                            <div class="card_text">
+                                <p class="descrip_sg"><span class="bold_sub">Reparto principal:</span> Katherine Heigl, Sarah Chalke, Ali Skovbye, Roan Curtis, Ben Lawson, 
+                                    Beau Garrett, Yael Yurman, India de Beaufort, Greg Germann, Jolene Purdy y Ignacio Serricchio.
+                                </p>
+                            </div>
+                            <div class="bot_sg">
+                                <p class="flag_card_text">Entrenamiento</p>
+                                <p class="flag_card_text">AméricaPlay</p>
+                                <p class="flag_card_text">Actualidad</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sidebar_sg">
+                    <div class="img_sg">
+                        <img src="img/Marlon-Torres.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- ----------------------CONTAINER NOTES---------------------------- -->
+    <main class="container_notes">
+        <div class="content_notes">
+            <div class="head_notes">
+                <h1 class="title_head_notes">Articulos relacionados</h1>
+            </div>
+            <div class="notes_row">
+                <div class="note">
+                    <div class="img_note">
+                        <img src="img/america1.webp" alt="">
+                    </div>
+                    <div class="info_note">
+                        <div class="content_info_note">
+                            <p class="flag">Tbt Azul</p>
+                            <h2 class="title_note">Tyler Perry es el director, guionista y director de la película de Netflix "Six Triple Eight"</h2>
+                            <a href="single_note.html" class="btn_note">Seguir leyendo</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="note">
+                    <div class="img_note">
+                        <img src="img/america2.webp" alt="">
+                    </div>
+                    <div class="info_note">
+                        <div class="content_info_note">
+                            <p class="flag">Tbt Azul</p>
+                            <h2 class="title_note">Tyler Perry es el director, guionista y director de la película de Netflix "Six Triple Eight"</h2>
+                            <a href="single_note.html" class="btn_note">Seguir leyendo</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="note">
+                    <div class="img_note">
+                        <img src="img/players.jpg" alt="">
+                    </div>
+                    <div class="info_note">
+                        <div class="content_info_note">
+                            <p class="flag">Tbt Azul</p>
+                            <h2 class="title_note">Tyler Perry es el director, guionista y director de la película de Netflix "Six Triple Eight"</h2>
+                            <a href="single_note.html" class="btn_note">Seguir leyendo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+
+
+    <!-- ----------------FOOTER------------------ -->
+    <footer class="footer">
+        <div class="content_footer">
+            <div class="top_footer">
+                <div class="column_first">
+                    <img src="img/logo.png" alt="">
+                    <h2 class="title_first">Over the top Millonarios</h2>
+                    <p class="paragraph_footer">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure aspernatur non officia id doloremque ratione animi consectetur veniam, libero rerum!</p>
+                </div>
+                <div class="widgets_column">
+                    <div class="column_footer">
+                        <h2 class="title_col">Contacto</h2>
+                        <h3 class="number_col">(+800) 1234 5678 90</h3>
+                        <p class="horary_col">Monday - Friday: 9:00-20:00</p>
+                        <p class="horary_col">Saturady: 11:00 - 15:00</p>
+                        <a href="#" class="link_example">Contáctanos</a>
+                    </div>
+                    <div class="column_footer">
+                        <h2 class="title_col">Categorías</h2>
+                        <a href="#" class="link_col">Más visto</a>
+                        <a href="#" class="link_col">El camino</a>
+                        <a href="#" class="link_col">Lo mejor del 2022</a>
+                        <a href="#" class="link_col">Embajadores de un sueño</a>
+                        <a href="#" class="link_col">Inside</a>
+                        <a href="#" class="link_col">Herbalife</a>
+                        <a href="#" class="link_col">Entretenimiento</a>
+                        <a href="#" class="link_col">Embajadoras del ballet azul</a>
+                        <a href="#" class="link_col">La interna</a>
+                    </div>
+                    <div class="column_footer">
+                        <h2 class="title_col title_col_trans">Categorías</h2>
+                        <a href="#" class="link_col">Actualidad</a>
+                        <a href="#" class="link_col">Detrás del azul</a>
+                        <a href="#" class="link_col">Tbt azul</a>
+                        <a href="#" class="link_col">Vlog Millonarios</a>
+                        <a href="#" class="link_col">Clásicos eternos</a>
+                        <a href="#" class="link_col">Promociones</a>
+                        <a href="#" class="link_col">Test</a>
+                        <a href="#" class="link_col">Mar azul</a>
+                        <a href="#" class="link_col">Millonarios FC en las redes</a>
+                    </div>
+                </div>
+            </div>
+            <div class="mid_footer">
+                <div class="text_mid">
+                    <p class="paragraph_mid con_bord">-5% for all order in this week Shop now</p>
+                </div>
+                <div class="text_mid">
+                    <p class="paragraph_mid">Free delivery for all orders over $200</p>
+                </div>
+            </div>
+            <div class="bot_footer">
+                <div class="copy">
+                    <div class="terms_">
+                        <a href="#" class="link_copy">Privacy Policy</a>
+                        <a href="#" class="link_copy">Order Tracking</a>
+                        <a href="#" class="link_copy">Terms and Conditions</a>
+                        <a href="#" class="link_copy">Refund and Returns Policy</a>
+                    </div>
+                    <div class="copy_text">
+                        <p class="copyright">Copyright 2022 © Laooz Studios. All right reserved.</p>
+                    </div>
+                </div>
+                <div class="pay_box">
+                    <img src="img/Pepsi_logo.png" alt="">
+                    <img src="img/BetPlay-logo.png" alt="">
+                    <img src="img/aguardiente-caucano-logo.png" alt="">
+                    <img src="img/Logo_Tigo.png" alt="">
+                    <img src="img/lamontaña_logo.png" alt="">
+                    <img src="img/supergiros_logo.png" alt="">
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+
+
+  <!-- JavaScript Bundle with Popper Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  
+  <!-- ICONS IONICOS -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>

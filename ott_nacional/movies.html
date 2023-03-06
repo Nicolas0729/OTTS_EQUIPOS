@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ----------LINKS OWL CAROUSEL----------------- -->    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"/>
+    
+    <!-- ----------BOOTSTRAP 5.0.2----------------- -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    
+    <title>Home - MillosTV</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="css/estilos.css?v=1.4">
+    <link rel="stylesheet" href="css/responsive.css?v=1.4">
+
+</head>
+<body>
+    <!-- -------------------OFF CANVAS MENU----------------------- -->
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-body">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title img_canva" id="offcanvasExampleLabel"><img src="img/millo-tv.png" alt=""></h5>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+          <div class="head_canvas">
+            <a href="#" class="item_canva"><i class="fa-solid fa-user"></i>Cuenta</a>
+            <a href="single_note.html" class="item_canva"><i class="fa-solid fa-circle-info"></i>Centro de ayuda</a>
+            <a href="login.html" class="item_canva"><i class="fa-solid fa-right-to-bracket"></i>Cerrar sesión</a>
+          </div>
+          <div class="mid_canvas">
+            <a href="#" class="item_mid"><i class="fa-solid fa-chevron-right"></i>Más visto</a>
+            <a href="#" class="item_mid"><i class="fa-solid fa-chevron-right"></i>Inside</a>
+            <a href="#" class="item_mid"><i class="fa-solid fa-chevron-right"></i>Tbt Azul</a>
+            <a href="#" class="item_mid"><i class="fa-solid fa-chevron-right"></i>Mar Azul</a>
+            <a href="#" class="item_mid"><i class="fa-solid fa-chevron-right"></i>Embajadores de un sueño</a>
+            <a href="#" class="item_mid"><i class="fa-solid fa-chevron-right"></i>Entretenimiento</a>
+            <a href="#" class="item_mid"><i class="fa-solid fa-chevron-right"></i>Blog Millonarios</a>
+            <a href="#" class="item_mid"><i class="fa-solid fa-chevron-right"></i>Actualidad</a>
+            <a href="#" class="item_mid"><i class="fa-solid fa-chevron-right"></i>Embajadores del Ballet Azul</a>
+            <a href="#" class="item_mid"><i class="fa-solid fa-chevron-right"></i>Clásicos eternos</a>
+            <a href="#" class="item_mid"><i class="fa-solid fa-chevron-right"></i>El camino</a>
+            <a href="#" class="item_mid"><i class="fa-solid fa-chevron-right"></i>Detrás del Azul</a>
+            <a href="#" class="item_mid"><i class="fa-solid fa-chevron-right"></i>Promociones</a>
+          </div>
+          <div class="logo_and">
+            <img src="img/Andina-web-22-2.png" alt="">
+          </div>
+          <div class="row_canvas">
+            <li>
+                <img src="img/adidas.png" alt="">
+            </li>
+            <li>
+                <img src="img/cafam.png" alt="">
+            </li>
+            <li>
+                <img src="img/herbalife.png" alt="">
+            </li>
+            <li>
+                <img src="img/wplay.png" alt="">
+            </li>
+            <li>
+                <img src="img/allianz.png" alt="">
+            </li>
+          </div>
+        </div>
+      </div>
+
+  
+  <!-- ------------------------MODAL----------------- -->
+  <div class="modal fade modal_window" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body body_modal">
+            <div class="head_modal">
+                <video autoplay loop muted plays-inline class="video_modal">
+                    <source src="img/cover_nacional.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="mid_modal">
+                <h2 class="title_modal">CAMINO AL TÍTULO</h2>
+                <a href="liveVideo.html" class="btn_play_movie"><i class="fa-solid fa-play"></i>Reproducir</a>
+                <div class="specified">
+                    <p class="year_cuality">2008 <span class="cuality_">+16</span> 57 episodios <span class="cuality_">HD</span></p>
+                </div>
+                <div class="text_modal">
+                    <h3 class="title_descrip">Descripción</h3>
+                    <p class="description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi accusantium voluptates at ipsam enim deserunt! Consequatur doloribus cupiditate ad. Quis dignissimos, quo soluta cumque molestias ipsum rerum reiciendis a dolor?</p>
+                    <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit a consequuntur illum labore doloremque culpa id deserunt error corrupti quas aperiam veritatis unde et, eaque nemo molestiae enim quam harum.</p>
+                </div>
+                <div class="text_modal">
+                    <h3 class="title_descrip">Acerca de</h3>
+                    <p class="description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi accusantium voluptates at ipsam enim deserunt! Consequatur doloribus cupiditate ad. Quis dignissimos, quo soluta cumque molestias ipsum rerum reiciendis a dolor?</p>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+    <!-- --------------------HEADER---------- -->
+    <header class="header">
+        <div class="content_header">
+            <div class="left_header">
+                <div class="menu_mobile">
+                    <a class="btn_menu_mob" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample"><i class="fa-solid fa-bars"></i></a>
+                </div>
+                <div class="logo_header">
+                    <a href="index.html">
+                        <img src="img/logo_nacional.png" class="img_movie" alt="">
+                    </a>
+                </div>
+                <div class="menu_movies">
+                    <a href="index.html" class="item_menu">Inicio</a>
+                    <a href="movies.html" class="item_menu">Videos</a>
+                    <a href="blog.html" class="item_menu">Blog</a>
+                </div>
+            </div>
+            <div class="right_header">
+                <div class="search_icon">
+                    <div class="btn_search">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                    <input type="text" placeholder="Títulos, personas, géneros" required>
+                </div>
+                <div class="admin_icon">
+                    <div class="dropdown">
+                        <button class="btn btn_admin  dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa-solid fa-user"></i>
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                          <li><a class="dropdown-item" href="#"><i class="fa-solid fa-user"></i>Cuenta</a></li>
+                          <li><a class="dropdown-item" href="#"><i class="fa-solid fa-circle-info"></i>Soporte</a></li>
+                          <li><a class="dropdown-item" href="login.html"><i class="fa-solid fa-right-to-bracket"></i>Cerrar sesión</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- ------------------HERO MOVIES--------------- -->
+    <div class="hero">
+        <video autoplay loop muted plays-inline class="back_video">
+            <source src="img/cover_nacional.mp4" type="video/mp4">
+        </video>
+        <div class="content_hero">
+            <div class="text_hero">
+                <div class="head_hero">
+                    <h1 class="title_hero">La Película del Título<i class="fa-solid fa-trophy"></i></h1>
+                    <p class="paragraf_hero">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure atque nam,
+                        enim veniam quibusdam quaerat accusantium fuga voluptas tenetur,
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure atque nam,
+                        enim veniam quibusdam quaerat accusantium fuga voluptas tenetur,</p>
+                </div>
+                <div class="bot_hero">
+                    <a href="liveVideo.html" class="btn_play"><i class="fa-solid fa-play"></i>Reproducir</a>
+                    <a href="single_note.html" class="btn_info" alt="" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fa-solid fa-info"></i>Más información</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ----------------SLIDER MASK--------- -->
+    <main class="slider_mask first_slider">
+        <div class="head_slider">
+            <h2 class="category_movie">
+                <a href="#">Lo más reciente</a>
+            </h2>
+        </div>
+        <div class="carousel_mov owl-carousel owl-theme">
+            <div class="item">
+                <img src="img/celebrar.jpg" class="link_movie" alt="" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            </div>
+            <div class="item">
+                <img src="img/camiseta.jpg" class="link_movie" alt="" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            </div>
+            <div class="item">
+                <img src="img/debut.jpg" class="link_movie" alt="" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            </div>
+            <div class="item">
+                <img src="img/tecnico.jpg" class="link_movie" alt="" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            </div>
+            <div class="item">
+                <img src="img/gol_ATN.jpg" class="link_movie" alt="" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            </div>
+            <div class="item">
+                <img src="img/dacosta.webp" class="link_movie" alt="" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            </div>
+        </div>
+    </main>
+
+    <!-- ----------------SLIDER MASK--------- -->
+    <main class="slider_mask">
+        <div class="head_slider">
+            <h2 class="category_movie">
+                <a href="#">El camino</a>
+            </h2>
+        </div>
+        <div class="carousel_mov owl-carousel owl-theme">
+            <div class="item">
+                <img src="img/celebrar.jpg" class="link_movie" alt="" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            </div>
+            <div class="item">
+                <img src="img/camiseta.jpg" class="link_movie" alt="" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            </div>
+            <div class="item">
+                <img src="img/debut.jpg" class="link_movie" alt="" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            </div>
+            <div class="item">
+                <img src="img/tecnico.jpg" class="link_movie" alt="" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            </div>
+            <div class="item">
+                <img src="img/gol_ATN.jpg" class="link_movie" alt="" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            </div>
+            <div class="item">
+                <img src="img/dacosta.webp" class="link_movie" alt="" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            </div>
+        </div>
+    </main>
+
+    <!-- ----------------SLIDER MASK--------- -->
+    <main class="slider_mask">
+        <div class="head_slider">
+            <h2 class="category_movie">
+                <a href="#">Embajadores</a>
+            </h2>
+        </div>
+        <div class="carousel_mov owl-carousel owl-theme">
+            <div class="item">
+                <img src="img/celebrar.jpg" class="link_movie" alt="" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            </div>
+            <div class="item">
+                <img src="img/camiseta.jpg" class="link_movie" alt="" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            </div>
+            <div class="item">
+                <img src="img/debut.jpg" class="link_movie" alt="" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            </div>
+            <div class="item">
+                <img src="img/tecnico.jpg" class="link_movie" alt="" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            </div>
+            <div class="item">
+                <img src="img/gol_ATN.jpg" class="link_movie" alt="" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            </div>
+            <div class="item">
+                <img src="img/dacosta.webp" class="link_movie" alt="" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            </div>
+        </div>
+    </main>
+
+    <!-- ----------------SLIDER MASK--------- -->
+    <main class="slider_mask">
+        <div class="head_slider">
+            <h2 class="category_movie">
+                <a href="#">Actualidad</a>
+            </h2>
+        </div>
+        <div class="carousel_mov owl-carousel owl-theme">
+            <div class="item">
+                <img src="img/celebrar.jpg" class="link_movie" alt="" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            </div>
+            <div class="item">
+                <img src="img/camiseta.jpg" class="link_movie" alt="" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            </div>
+            <div class="item">
+                <img src="img/debut.jpg" class="link_movie" alt="" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            </div>
+            <div class="item">
+                <img src="img/tecnico.jpg" class="link_movie" alt="" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            </div>
+            <div class="item">
+                <img src="img/gol_ATN.jpg" class="link_movie" alt="" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            </div>
+            <div class="item">
+                <img src="img/dacosta.webp" class="link_movie" alt="" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            </div>
+        </div>
+    </main>
+
+    <!-- ----------------SLIDER MASK--------- -->
+    <main class="slider_mask">
+        <div class="head_slider">
+            <h2 class="category_movie">
+                <a href="#">Verdolagas</a>
+            </h2>
+        </div>
+        <div class="carousel_mov owl-carousel owl-theme">
+            <div class="item">
+                <img src="img/celebrar.jpg" class="link_movie" alt="" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            </div>
+            <div class="item">
+                <img src="img/camiseta.jpg" class="link_movie" alt="" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            </div>
+            <div class="item">
+                <img src="img/debut.jpg" class="link_movie" alt="" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            </div>
+            <div class="item">
+                <img src="img/tecnico.jpg" class="link_movie" alt="" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            </div>
+            <div class="item">
+                <img src="img/gol_ATN.jpg" class="link_movie" alt="" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            </div>
+            <div class="item">
+                <img src="img/dacosta.webp" class="link_movie" alt="" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            </div>
+        </div>
+    </main>
+
+    <!-- ----------------SLIDER MASK--------- -->
+    <main class="slider_mask">
+        <div class="head_slider">
+            <h2 class="category_movie">
+                <a href="#">Entretenimiento</a>
+            </h2>
+        </div>
+        <div class="carousel_mov owl-carousel owl-theme">
+            <div class="item">
+                <img src="img/celebrar.jpg" class="link_movie" alt="" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            </div>
+            <div class="item">
+                <img src="img/camiseta.jpg" class="link_movie" alt="" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            </div>
+            <div class="item">
+                <img src="img/debut.jpg" class="link_movie" alt="" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            </div>
+            <div class="item">
+                <img src="img/tecnico.jpg" class="link_movie" alt="" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            </div>
+            <div class="item">
+                <img src="img/gol_ATN.jpg" class="link_movie" alt="" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            </div>
+            <div class="item">
+                <img src="img/dacosta.webp" class="link_movie" alt="" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            </div>
+        </div>
+    </main>
+
+    <!-- ----------------SLIDER MASK--------- -->
+    <main class="slider_mask">
+        <div class="head_slider">
+            <h2 class="category_movie">
+                <a href="#">La hinchada</a>
+            </h2>
+        </div>
+        <div class="carousel_mov owl-carousel owl-theme">
+            <div class="item">
+                <img src="img/celebrar.jpg" class="link_movie" alt="" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            </div>
+            <div class="item">
+                <img src="img/camiseta.jpg" class="link_movie" alt="" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            </div>
+            <div class="item">
+                <img src="img/debut.jpg" class="link_movie" alt="" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            </div>
+            <div class="item">
+                <img src="img/tecnico.jpg" class="link_movie" alt="" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            </div>
+            <div class="item">
+                <img src="img/gol_ATN.jpg" class="link_movie" alt="" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            </div>
+            <div class="item">
+                <img src="img/dacosta.webp" class="link_movie" alt="" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            </div>
+        </div>
+    </main>
+
+    <!-- ----------------SLIDER MASK--------- -->
+    <main class="slider_mask">
+        <div class="head_slider">
+            <h2 class="category_movie">
+                <a href="#">Detrás de cámara</a>
+            </h2>
+        </div>
+        <div class="carousel_mov owl-carousel owl-theme">
+            <div class="item">
+                <img src="img/celebrar.jpg" class="link_movie" alt="" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            </div>
+            <div class="item">
+                <img src="img/camiseta.jpg" class="link_movie" alt="" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            </div>
+            <div class="item">
+                <img src="img/debut.jpg" class="link_movie" alt="" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            </div>
+            <div class="item">
+                <img src="img/tecnico.jpg" class="link_movie" alt="" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            </div>
+            <div class="item">
+                <img src="img/gol_ATN.jpg" class="link_movie" alt="" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            </div>
+            <div class="item">
+                <img src="img/dacosta.webp" class="link_movie" alt="" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            </div>
+        </div>
+    </main>
+    
+
+    <!-- -----------------FOOTER------------------ -->
+    <footer class="footer"> 
+        <div class="content_footer">
+            <div class="top_footer">
+                <div class="img_tf">
+                    <img src="img/Solo-escudo.png.webp" alt="">
+                </div>
+            </div>
+            <div class="logos_footer">
+                <div class="pat_footer">
+                    <a href="https://www.adidas.co/">
+                        <img src="img/Logo-Postobon.svg" alt="">
+                    </a>
+                    <a href="https://www.cafam.com.co/">
+                        <img src="img/Logo-Nike.svg" alt="">
+                    </a>
+                    <a href="https://www.herbalife.com.co/">
+                        <img src="img/Logo-Aguardiente.svg" alt="">
+                    </a>
+                    <a href="https://www.wplay.co/">
+                        <img src="img/Logo-Betplay.svg" alt="">
+                    </a>
+                    <a href="https://www.allianz.co/">
+                        <img src="img/Logo-Aress.png.webp" alt="">
+                    </a>
+                    <a href="https://www.adidas.co/">
+                        <img src="img/Logo-Usana.png.webp" alt="">
+                    </a>
+                    <a href="https://www.cafam.com.co/">
+                        <img src="img/Logo-Cedimed.svg" alt="">
+                    </a>
+                    <a href="https://www.herbalife.com.co/">
+                        <img src="img/Logo-EA.svg" alt="">
+                    </a>
+                    <a href="https://www.wplay.co/">
+                        <img src="img/Logo-Tigo.svg" alt="">
+                    </a>
+                    <a href="https://www.allianz.co/">
+                        <img src="img/logo_mcs.webp" alt="">
+                    </a>
+                    <a href="https://www.cafam.com.co/">
+                        <img src="img/oto-caps.png.webp" alt="">
+                    </a>
+                    <a href="https://www.herbalife.com.co/">
+                        <img src="img/finandina2.png.webp" alt="">
+                    </a>
+                    <a href="https://www.wplay.co/">
+                        <img src="img/STANLEY-1536x1039.png.webp" alt="">
+                    </a>
+                    <a href="https://www.allianz.co/">
+                        <img src="img/logo-mandala-blanco_Mesa-de-trabajo-1.png.webp" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="copy">
+            <div class="content_copy">
+                <div class="left_copy">
+                    <img src="img/logo_nacional.png" alt="" class="logo_nacional">
+                </div>
+                <div class="center_copy">
+                    <p class="paragraph_copy">Copyright © NACIONAL PLAY 2023. Todos los derechos reservados</p>
+                </div>
+                <div class="right_copy">
+                    <div class="redes_copy">
+                        <a href="#" class="social_icon"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" class="social_icon"><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+
+
+    <!-- JavaScript Bundle with Popper Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    
+    <!-- -----------------cdn slider carousel--------------- -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>   
+
+
+    <script src="js/codigo.js"></script> 
+
+</body>
+</html>
